@@ -1,0 +1,106 @@
+/*General Style*/
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #000;
+    font-weight: 100;
+}
+
+#navigation {
+    margin-bottom: 0;
+}
+
+#name {
+    font-weight: 800;
+}
+
+nav {
+    font-family: 'Josefin Sans', sans-serif;
+}
+*:focus {
+    outline: none;
+}
+
+/*index.html Style*/
+
+.homeImages {
+    width: 99%;
+    height: auto;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.picBox {
+     padding: 0;
+     margin: 0;
+ }
+
+.homeImages:hover {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/*about.html Style*/
+
+ol li {
+    line-height: 2;
+}
+
+/*contact.html Style*/
+
+#contactDiv {
+    padding-top: 30px;
+}
+#contactForm {
+    text-align: center;
+}
+
+#submit {
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    background: #FFFFFF;
+}
+#submit:hover {
+    color: #FFFFFF;
+    background: rgba(0,0,139,.4);
+}
+#linkDiv {
+    padding-bottom: 5%;
+}
+.form-input {
+    padding: 20px 0 20px 0;
+}
+
+.form-list {
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+}
+.input {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    color: #00008b;
+}
+
+ul li {
+    display: inline ;
+    padding: 5px 5px 0 5px ;
+}
+
+ul li a {
+    color: #FFFFFF
+}
+ul li a:hover {
+    text-decoration: none;
+    color: rgba(0,0,0,.3)
+}
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+

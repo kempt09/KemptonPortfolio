@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kempton Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="images/cheap_diagonal_fabric.png">
+    <nav class="navbar navbar-default" id="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="name-title" href="index.html">Christopher Kempton</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav navbar-right" id="nav-link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="contactDiv">
+        <div class="container-fluid" id="formDiv">
+            <div class="row">
+                <form id="contactForm" action="#" method="post">
+                        <div class="col-sm-12 form-input">
+                            <label for="name">Name:</label>
+                            <input id="name" class="input" name="name" type="text" placeholder="Jane Doe" required>
+                        </div>
+                        <div class="col-sm-12 form-input">
+                            <label for="email">Email:</label>
+                            <input id="email" class="input" name="email" type="email" placeholder="janedoe@email.com" required>
+                        </div>
+                        <div class="col-sm-12 form-input">
+                            <label for="message">Message</label><br>
+                            <textarea id="message" class="input" name="message" required></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <button id="submit" type="submit" value="send email">Send</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid" id="linkDiv">
+            <div class="row">
+                <div class="col-sm-6 form-list">
+                    <h3>Social</h3>
+                    <ul class="list">
+                        <li><a href="https://www.linkedin.com/in/christopherkempton">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/javascriptChris">Twitter</a></li>
+                        <li><a href="https://github.com/kempt09">Github</a></li>
+                        <li><a href="https://www.facebook.com/rhymnoceros1">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 form-list">
+                    <h3>Cool Links</h3>
+                    <ul class="list">
+                        <li><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
+                        <li><a href="http://stackoverflow.com/">Stack Overflow</a></li>
+                        <li><a href="https://jquery.com/">jQuery</a></li>
+                        <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
