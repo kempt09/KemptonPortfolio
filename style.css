@@ -20,6 +20,19 @@ nav {
     outline: none;
 }
 
+.uppercase {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#capButton {
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin-top: 10px;
+
+}
+
 /*index.html Style*/
 
 .homeImages {
@@ -56,18 +69,33 @@ ol li {
     text-align: center;
 }
 
+#changeString {
+    text-align: center;
+}
+
+#changeString h3 {
+    padding-bottom: 10px;
+}
+
 #submit {
-    border-radius: 5px;
     width: 60px;
     height: 30px;
+}
+
+#addEx {
+    margin-bottom: 20px;
+}
+
+.submit {
+    border-radius: 5px;
     background: #FFFFFF;
 }
-#submit:hover {
+.submit:hover {
     color: #FFFFFF;
     background: rgba(0,0,139,.4);
 }
 #linkDiv {
-    padding-bottom: 5%;
+    padding-bottom: 10px;
 }
 .form-input {
     padding: 20px 0 20px 0;

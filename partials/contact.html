@@ -16,7 +16,7 @@
                             <textarea id="message" class="input" name="message" required></textarea>
                         </div>
                         <div class="col-sm-12">
-                            <button id="submit" type="submit" value="send email">Send</button>
+                            <button id="submit" class="submit" type="submit" value="send email">Send</button>
                         </div>
                 </form>
             </div>
@@ -42,6 +42,20 @@
                         <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid" id="">
+            <div class="row">
+                  <form id="changeString">
+                    <div class="col-sm-12 form-input">
+                        <h3>Type in something to make it exciting!</h3>
+                        <input id="addExBox" class="input" name="string" type="text" placeholder="Something cool" required>
+                    </div>
+                    <div class="col-sm-12">
+                        <button id="addEx" class="submit" type="button" onclick="app.makeChange()" value="make exciting">Exite Me</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
