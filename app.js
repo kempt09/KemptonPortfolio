@@ -19,5 +19,6 @@ var app = {
     var url = this.href;
     $('#page').remove();
     $('#content').load(url + "#page").hide().fadeIn('fast');
-    })())
+    }))
 };
+app.partialViews();
