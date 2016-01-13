@@ -1,4 +1,4 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Part One~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Part One ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. On a scale of 1 - 5 (1 being not at all, 5 being extremely), how confident do you feel about your grasp of this section’s content?
 
@@ -12,7 +12,7 @@
 
     - CSS for sure! It seems that no matter what you have to go back and fix something with the CSS after changing something else and it is difficult to get the element exactly where you want it. 
     
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Part One~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Part Two ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. On a scale of 1 - 5 (1 being not at all, 5 being extremely), how confident do you feel in this week’s advanced content?
 
