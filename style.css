@@ -43,6 +43,7 @@ nav {
     margin-right: auto;
     border-radius: 10px;
 }
+
 .picBox {
      padding: 0;
      margin: 0;
@@ -52,6 +53,7 @@ nav {
     padding: 0;
     margin: 0;
     width: 100%;
+    height: auto;
 }
 
 /*about.html Style*/
